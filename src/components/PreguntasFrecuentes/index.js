@@ -19,68 +19,146 @@ const PreguntasFrecuentes = () => (
               </div>{/* row */}
             </div>{/* container */}
           </div>{/* page-header */}
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8">
-                {/* <h6 style="font-weight: 600;">Contactanos</h6> */}
-                <form id="contact-form" name="contact-form" method="post" action="assets/php/send.php">
-                  <fieldset>
-                    <div id="alert-area" />
-                    <p>
-                      <input className="col-12" id="name" type="text" name="name" placeholder required />
-                      <span />
-                      <label htmlFor="name">Nombre</label>
-                    </p>
-                    <p>
-                      <input className="col-12" id="email" type="text" name="email" placeholder required />
-                      <span />
-                      <label htmlFor="email">Correo electrónico</label>
-                    </p>
-                    {/* <p>
-									<input class="col-12" id="subject" type="text" name="email" placeholder="" required>
-									<span></span>
-									<label for="subject">Motivo</label>
-								</p> */}
-                    <p>
-                      <textarea className="col-12" id="message" name="message" rows={3} cols={25} placeholder required defaultValue={""} />
-                      <span />
-                      <label htmlFor="message">Mensaje</label>
-                    </p>
-                    <button className="btn btn-primary" id="submit" type="submit" name="submit" value>Enviar mensaje <i className="decode-icon-cursor" /></button>
-                  </fieldset>
-                </form>
-              </div>{/* col */}
-              <div className="col-md-4">
-                <br />
-                <p>Comunícate con nosotros</p>
-                <br />
-                <div className="widget widget-contact"> {/* ml-lg-5 */}
-                  <ul>
-                    <li className="address">
-                      <i className="decode-icon-placeholder2" />
-                      Av. Eugenio Mendoza con 2da. Transversal, Torre Multinvest,<br className="d-block d-md-none d-lg-block" /> Piso 2, Oficina 2C. La Castellana Caracas – Venezuela.
-                    </li>
-                    <li className="phone">
-                      <i className="decode-icon-phone-call" />
-                      +58 212-2645130
-                    </li>
-                    <li className="email">
-                      <i className="decode-icon-multimedia" />
-                      <a href="mailto:ciexpro@ciexpro.com">ciexpro@ciexpro.com</a>
-                    </li>
-                  </ul>
-                </div>{/* widget-contact */}
-              </div>{/* col */}
-            </div>{/* row */}
-          </div>{/* container */}
-          <br />
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <div className="map" data-zoom={15} data-height={585} data-address="Barnes Street, Sanford, FL" data-address-details="Here is our location" />
-              </div>{/* col */}
-            </div>{/* row */}
-          </div>{/* container */}
+          <div className="container" style={{ paddingBottom: '10%' }}>
+        <div className="row">
+          <div className="col-md-9 ml-md-auto mr-md-auto">
+            <div className="panel-group" id="accordion1">
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse1-1" aria-expanded="true">¿ Que es Ciexpro ?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse1-1" className="panel-collapse collapse show">
+                  <div className="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae augue vestibulum, ornare dolor ac, facilisis dui. Vivamus tempus felis sed ligula congue interdum vitae eget neque. Vivamus faucibus volutpat ipsum, ac faucibus libero interdum ac. Ut accumsan libero eget viverra scelerisque. Curabitur eu aliquet lectus. Nulla augue leo, condimentum quis purus vitae, maximus ultricies odio. Pellentesque nec aliquam nisi.</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse2-1">¿ Por que iniciar esta aventura con ustedes ?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse2-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Donec faucibus, tortor vel posuere eleifend, nulla quam vehicula lorem, vitae rutrum eros eros semper velit. Cras quis diam ipsum. Mauris odio mi, ullamcorper id placerat at, euismod vel quam. Donec in cursus augue, quis commodo tortor. Nunc posuere diam at orci dignissim, sed hendrerit nulla rhoncus. Praesent ac purus non magna finibus viverra. In vestibulum ornare elit at laoreet. Curabitur nec magna at elit rhoncus.</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse3-1">¿Que tipo de programas tienen disponibles?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse3-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Phasellus interdum posuere augue at venenatis. Sed gravida ex sed elit sodales, vitae volutpat mauris feugiat. Morbi id rhoncus odio. Maecenas sed augue tortor. Etiam feugiat ex a massa finibus scelerisque. Proin feugiat, justo eu fringilla malesuada, metus orci sodales dui, vitae laoreet nisi purus vel tellus. Nam lacinia feugiat ornare. Nulla a tortor ut ligula venenatis mollis nec eget nisl. Morbi rhoncus erat nisl, non tempus diam vulputate et</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse4-1">¿Necesito conocimiento previo para tomar mis clases?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse3-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Phasellus interdum posuere augue at venenatis. Sed gravida ex sed elit sodales, vitae volutpat mauris feugiat. Morbi id rhoncus odio. Maecenas sed augue tortor. Etiam feugiat ex a massa finibus scelerisque. Proin feugiat, justo eu fringilla malesuada, metus orci sodales dui, vitae laoreet nisi purus vel tellus. Nam lacinia feugiat ornare. Nulla a tortor ut ligula venenatis mollis nec eget nisl. Morbi rhoncus erat nisl, non tempus diam vulputate et</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse5-1">¿Como funcionan los programas? ¿Debo seguir un horario?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse3-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Phasellus interdum posuere augue at venenatis. Sed gravida ex sed elit sodales, vitae volutpat mauris feugiat. Morbi id rhoncus odio. Maecenas sed augue tortor. Etiam feugiat ex a massa finibus scelerisque. Proin feugiat, justo eu fringilla malesuada, metus orci sodales dui, vitae laoreet nisi purus vel tellus. Nam lacinia feugiat ornare. Nulla a tortor ut ligula venenatis mollis nec eget nisl. Morbi rhoncus erat nisl, non tempus diam vulputate et</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse6-1">¿Cual es la modalidad de estudio?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse3-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Phasellus interdum posuere augue at venenatis. Sed gravida ex sed elit sodales, vitae volutpat mauris feugiat. Morbi id rhoncus odio. Maecenas sed augue tortor. Etiam feugiat ex a massa finibus scelerisque. Proin feugiat, justo eu fringilla malesuada, metus orci sodales dui, vitae laoreet nisi purus vel tellus. Nam lacinia feugiat ornare. Nulla a tortor ut ligula venenatis mollis nec eget nisl. Morbi rhoncus erat nisl, non tempus diam vulputate et</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse7-1">¿Que metodos de pago aceptan?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse3-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Phasellus interdum posuere augue at venenatis. Sed gravida ex sed elit sodales, vitae volutpat mauris feugiat. Morbi id rhoncus odio. Maecenas sed augue tortor. Etiam feugiat ex a massa finibus scelerisque. Proin feugiat, justo eu fringilla malesuada, metus orci sodales dui, vitae laoreet nisi purus vel tellus. Nam lacinia feugiat ornare. Nulla a tortor ut ligula venenatis mollis nec eget nisl. Morbi rhoncus erat nisl, non tempus diam vulputate et</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse8-1">¿Cuanto tarda en activarse si pago con PayPal?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse3-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Phasellus interdum posuere augue at venenatis. Sed gravida ex sed elit sodales, vitae volutpat mauris feugiat. Morbi id rhoncus odio. Maecenas sed augue tortor. Etiam feugiat ex a massa finibus scelerisque. Proin feugiat, justo eu fringilla malesuada, metus orci sodales dui, vitae laoreet nisi purus vel tellus. Nam lacinia feugiat ornare. Nulla a tortor ut ligula venenatis mollis nec eget nisl. Morbi rhoncus erat nisl, non tempus diam vulputate et</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse9-1">¿Me enviaran una factura?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse3-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Phasellus interdum posuere augue at venenatis. Sed gravida ex sed elit sodales, vitae volutpat mauris feugiat. Morbi id rhoncus odio. Maecenas sed augue tortor. Etiam feugiat ex a massa finibus scelerisque. Proin feugiat, justo eu fringilla malesuada, metus orci sodales dui, vitae laoreet nisi purus vel tellus. Nam lacinia feugiat ornare. Nulla a tortor ut ligula venenatis mollis nec eget nisl. Morbi rhoncus erat nisl, non tempus diam vulputate et</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse10-1">¿Apenas realice el pago puedo iniciar el programa?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse3-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Phasellus interdum posuere augue at venenatis. Sed gravida ex sed elit sodales, vitae volutpat mauris feugiat. Morbi id rhoncus odio. Maecenas sed augue tortor. Etiam feugiat ex a massa finibus scelerisque. Proin feugiat, justo eu fringilla malesuada, metus orci sodales dui, vitae laoreet nisi purus vel tellus. Nam lacinia feugiat ornare. Nulla a tortor ut ligula venenatis mollis nec eget nisl. Morbi rhoncus erat nisl, non tempus diam vulputate et</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+              <div className="panel">
+                <div className="panel-heading">
+                  <h6 className="panel-title">
+                    <a className="waves" data-toggle="collapse" data-parent="#accordion1" href="#collapse11-1">¿Puedo compartir mi cuenta con varias personas?</a>
+                  </h6>
+                </div>{/* panel-heading */}
+                <div id="collapse3-1" className="panel-collapse collapse">
+                  <div className="panel-body">
+                    <p>Phasellus interdum posuere augue at venenatis. Sed gravida ex sed elit sodales, vitae volutpat mauris feugiat. Morbi id rhoncus odio. Maecenas sed augue tortor. Etiam feugiat ex a massa finibus scelerisque. Proin feugiat, justo eu fringilla malesuada, metus orci sodales dui, vitae laoreet nisi purus vel tellus. Nam lacinia feugiat ornare. Nulla a tortor ut ligula venenatis mollis nec eget nisl. Morbi rhoncus erat nisl, non tempus diam vulputate et</p>
+                  </div>{/* panel-body */}
+                </div>{/* panel-collapse */}
+              </div>{/* panel */}
+            </div>{/* accordion */}
+          </div>{/* col */}
+        </div>{/* row */}
+      </div>
         </div>{/* PAGE CONTENT */}
         {/* MAIN CONTAINER */}
       </div>

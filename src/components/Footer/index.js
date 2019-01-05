@@ -25,9 +25,9 @@ class Footer extends Component {
                   <div className="widget widget-pages">
                     <h6 className="widget-title" />
                     <ul>
-                      <li><a href="index.html" style={{color: '#fff'}}>Inicio</a></li>
-                      <li><a href="producto.html" style={{color: '#fff'}}>eBootcamp</a></li>
-                      <li><a href="eMaster.html" style={{color: '#fff'}}>eMaster</a></li>
+                      <li><Link to="/" style={{color: '#fff'}}>Inicio</Link></li>
+                      <li><Link to="/ebootcamp" style={{color: '#fff'}}>eBootcamp</Link></li>
+                      <li><Link to="/emaster" style={{color: '#fff'}}>eMaster</Link></li>
                       <li><Link to="/preguntas_frecuentes" style={{color: '#fff'}}>Preguntas Frecuentes</Link></li>
                     </ul>
                   </div>
@@ -36,9 +36,10 @@ class Footer extends Component {
                   <div className="widget widget-pages">
                     <h6 className="widget-title" style={{color: '#fff'}}>Mapa</h6>
                     <ul>
-                      <li><a href="salas.html" style={{color: '#fff'}}>Salas</a></li>
-                      <li><a href="ciexpertos.html" style={{color: '#fff'}}>Expertos</a></li>
-                      <li><a href="contact.html" style={{color: '#fff'}}>Contacto</a></li>
+                      <li><Link to="/salas" style={{color: '#fff'}}>Salas</Link></li>
+                      <li><Link to="/contacto" style={{color: '#fff'}}>Contacto</Link></li>
+                      { /*<li><a href="ciexpertos.html" style={{color: '#fff'}}>Expertos</a></li>
+                      <li><a href="contact.html" style={{color: '#fff'}}>Contacto</a></li>*/ }
                       <li><Link to="/terminos_condiciones" style={{color: '#fff'}}>Terminos y condiciones</Link>
 
                   </li>

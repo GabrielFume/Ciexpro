@@ -24,7 +24,7 @@ const EbootCamp = () => (
             <div className="col-md-6">
               <div className="headline text-center no-margin-bottom">
                 {/* <h6>The best</h6> */}
-                <img src="assets/images/Web_Ciexpro_Producto_Descrip.gif" alt />
+                <img src="assets/images/Web_Ciexpro_Producto_hombre.jpg" alt />
               </div>{/* headline */}
             </div>{/* col */}
             <div className="col-md-6">
@@ -76,8 +76,8 @@ const EbootCamp = () => (
               </div>{/* col */}
               <div className="col-lg-6 col-md-12 col-sm-12" style={{marginTop: '-23%'}}>
                 <div className="headline text-center no-margin-bottom">
-                  <a href="http://ciexpro.indielms.com/" style={{color: '#fff'}}><i className="decode-icon-edit wow tada" style={{fontSize: '60px', color: '#fff'}} /></a>
-                  <h6><a href="http://ciexpro.indielms.com/" style={{color: '#fff'}}>Regístrate</a></h6>
+                  <a href="https://ciexpro.indielms.com/join_no_access_code" style={{color: '#fff'}}><i className="decode-icon-edit wow tada" style={{fontSize: '60px', color: '#fff'}} /></a>
+                  <h6><a href="https://ciexpro.indielms.com/join_no_access_code" style={{color: '#fff'}}>Regístrate</a></h6>
                 </div>{/* headline */}
               </div>{/* col */}
             </div>{/* row */}

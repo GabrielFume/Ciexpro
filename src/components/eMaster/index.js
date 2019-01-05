@@ -23,7 +23,7 @@ const Emaster = () => (
             <div className="col-md-6">
               <div className="headline text-center no-margin-bottom">
                 {/* <h6>The best</h6> */}
-                <img src="assets/images/Web_Ciexpro_Producto_Descrip.gif" alt />
+                <img src="assets/images/Web_Ciexpro_Producto_mujer.jpg" alt />
               </div>{/* headline */}
             </div>{/* col */}
             <div className="col-md-6">
@@ -32,35 +32,34 @@ const Emaster = () => (
                 <h3>eMaster:</h3>
                 <h2>Liderazgo en Entornos Digitales </h2>
                 <br />
-                <h5>¡TU RUTA AL ÉXITO EMPIEZA AQUÍ!</h5>
-                <p className>Formar lo esencial de tu visión y carácter para alcanzar exitosamente una cultura de liderazgo auténtico en la era digital. 2019</p>
-                {/* <div class="row">
-                <div class="col-md-6">
-                  <div class="service-box style-7" style="padding: 20px 40px 29px;">
-
-                    <div class="service-box-content">
-
-                      <h6><a href="single-service.html">8 hrs</a></h6>
-
+                <h5>Liderazgo en Entornos Digitales</h5>
+                <p >Forma lo esencial de la visión y de tu carácter para alcanzar el éxito a través de una cultura de liderazgo auténtico en entornos de transformación digital</p>
+                <div className="row">
+                <div className="col-md-6">
+                    <div className="service-box" style={{padding: '7px 40px 7px', borderRadius: '30px', border: 'solid 2px #6e6e6e', width: '93%'}}>
+                      <div className="service-box-content">
+                        <h6><a href="#" style={{paddingTop: '5%', color: '#6e6e6e'}}>DuraciÓn: 4 meses</a></h6>
+                      </div>{/* service-box-content */}
                     </div>
-
                   </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="service-box style-7" style="padding: 20px 40px 1px;">
-
-                    <div class="service-box-content">
-                      
-                      <h6 style="margin-bottom: 0px;"><a href="single-service.html"><del>30 $</del></a></h6>
-                      <h6><a href="single-service.html">25,5 $</a></h6>       
-
+                  <div className="col-md-6">
+                    <div className="service-box" style={{padding: '7px 40px 7px', borderRadius: '30px', border: 'solid 2px #6e6e6e', width: '93%'}}>
+                      <div className="service-box-content">
+                        <h6 style={{marginBottom: '0px', color: '#6e6e6e'}}><a href="#" style={{ color: '#6e6e6e'}}>150$ mensuales</a></h6>      
+                      </div>{/* service-box-content */}
                     </div>
-
                   </div>
-                </div>
+                  <div className="col-md-3"></div>
+                  <div className="col-md-6">
+                    <div className="service-box" style={{padding: '7px 40px 7px', borderRadius: '30px', border: 'solid 2px #6e6e6e', width: '93%'}}>
+                      <div className="service-box-content">
+                        <h6 style={{marginBottom: '0px', color: '#6e6e6e'}}><a href="#" style={{ color: '#6e6e6e'}}>De contado: 500$</a></h6>      
+                      </div>{/* service-box-content */}
+                    </div>
+                  </div>
                 
-              </div> */}
-                <span style={{color: '#94d60a'}}> SIGUE EL MAPA DE LA TRANSFORMACION</span>
+              </div>
+                {/*<span style={{color: '#94d60a'}}> ¡HAZ CUMBRE!</span>*/}
               </div>{/* headline */}
             </div>{/* col */}
           </div>{/* row */}
@@ -76,8 +75,8 @@ const Emaster = () => (
               </div>{/* col */}
               <div className="col-lg-6 col-md-12 col-sm-12" style={{marginTop: '-23%'}}>
                 <div className="headline text-center no-margin-bottom">
-                  <a href="http://ciexpro.indielms.com/" style={{color: '#fff'}}><i className="decode-icon-edit wow tada" style={{fontSize: '60px', color: '#fff'}} /></a>
-                  <h6><a href="http://ciexpro.indielms.com/" style={{color: '#fff'}}>Regístrate</a></h6>
+                  <a href="https://ciexpro.indielms.com/join_no_access_code" style={{color: '#fff'}}><i className="decode-icon-edit wow tada" style={{fontSize: '60px', color: '#fff'}} /></a>
+                  <h6><a href="https://ciexpro.indielms.com/join_no_access_code" style={{color: '#fff'}}>Regístrate</a></h6>
                 </div>{/* headline */}
               </div>{/* col */}
             </div>{/* row */}
@@ -89,17 +88,17 @@ const Emaster = () => (
               <div className="col-lg-4 col-md-6">
                 <div className="service-box style-8" style={{backgroundColor: '#fff', border: 'solid 2px #0082cb', padding: '13px 0px 0px 0px'}}>
                   <div style={{padding: '20px 50px'}}>
-                    <h4 className="text-left">Fase I</h4>
+                    <h4 className="text-left">CAMPAMENTO 1 – EL PODER DEL LÍDER</h4>
                     <ul className="bullet-list text-left">
-                      <li style={{color: '#000'}}>Autoconocimiento</li>
-                      <li style={{color: '#000'}}>Manejo de emociones</li>
-                      <li style={{color: '#000'}}>Manejo Comunicacional</li>
-                      <li style={{color: '#000'}}>Éxito</li>
+                      <li style={{color: '#000'}}>Liderazgo personal</li>
+                      <li style={{color: '#000'}}>Desarrollo del potencial personal</li>
+                      <li style={{color: '#000'}}>Conversaciones poderosas</li>
+                      <li style={{color: '#000'}}>Pensamiento para la resolución de problemas</li>
                     </ul>
                   </div>
                   <div style={{backgroundColor: '#f1f1f1', padding: '50px 40px', borderRadius: '0px 0px 9px 10px'}}>
                     <div style={{borderLeft: 'solid 3px #94d60a'}}>
-                      <p style={{color: '#5B5B5F', textAlign: 'left', paddingLeft: '10px'}}>Transforma tus fortalezas, oportunidades de mejora y estados de ánimo en herramientas comunicacionales para el desarrollo de un proyecto de vida exitoso</p>
+                      <p style={{color: '#5B5B5F', textAlign: 'left', paddingLeft: '10px'}}>Desarrollar el potencial personal del líder para abordar efectivamente situaciones de cambio y entornos de incertidumbre.</p>
                       {/* <div class="text-right">
                         <span style="text-align: right;color: #94d60a;"> 2019</span>
                       </div> */}
@@ -110,17 +109,18 @@ const Emaster = () => (
               <div className="col-lg-4 col-md-6">
                 <div className="service-box style-8" style={{backgroundColor: '#fff', border: 'solid 2px #0082cb', padding: '13px 0px 0px 0px'}}>
                   <div style={{padding: '20px 50px'}}>
-                    <h4 className="text-left">Fase II</h4>
+                    <h4 className="text-left">CAMPAMENTO 2 – EL LÍDER DE EQUIPOS</h4>
                     <ul className="bullet-list text-left">
-                      <li style={{color: '#000'}}>Pensamiento Computacional</li>
-                      <li style={{color: '#000'}}>Fundamentos del Marketing Digital</li>
-                      <li style={{color: '#000'}}>Introducción a las Finanzas Digitales</li>
+                      <li style={{color: '#000'}}>Liderazgo de equipos y agilidad</li>
+                      <li style={{color: '#000'}}>Empowerment: potenciando al equipo</li>
+                      <li style={{color: '#000'}}>Gestión de la información y el conocimiento</li>
+                      <li style={{color: '#000'}}>Toma de decisiones & smartbusiness</li>
                       {/* <li style="color: #000;">Éxito</li> */}
                     </ul>
                   </div>
                   <div style={{backgroundColor: '#f1f1f1', padding: '50px 40px', borderRadius: '0px 0px 9px 10px'}}>
                     <div style={{borderLeft: 'solid 3px #94d60a'}}>
-                      <p style={{color: '#5B5B5F', textAlign: 'left', paddingLeft: '10px'}}>Conoce el entorno actual para desarrollar tu plan de Marca Personal.</p>
+                      <p style={{color: '#5B5B5F', textAlign: 'left', paddingLeft: '10px'}}>Desarrollar las competencias propias del líder para la gestión de equipos creativos de alto desempeño que contribuyan al incremento de la productividad laboral.</p>
                       {/* <div class="text-right">
                         <span style="text-align: right;color: #94d60a;"> 2019</span>
                       </div> */}
@@ -131,17 +131,41 @@ const Emaster = () => (
               <div className="col-lg-4 col-md-6">
                 <div className="service-box style-8" style={{backgroundColor: '#fff', border: 'solid 2px #0082cb', padding: '13px 0px 0px 0px'}}>
                   <div style={{padding: '20px 50px'}}>
-                    <h4 className="text-left">Fase III</h4>
+                    <h4 className="text-left">CAMPAMENTO 3.1 – LIDERANDO EL ENTORNO DIGITAL</h4>
                     <ul className="bullet-list text-left">
-                      <li style={{color: '#000'}}>Desarrolla tu plan de Marca Personal.</li>
-                      {/* <li style="color: #000;">Manejo de emociones</li>
-                    <li style="color: #000;">Manejo Comunicacional</li>
-                    <li style="color: #000;">Éxito</li> */}
+                      <li style={{color: '#000'}}>Liderazgo estratégico</li>
+                          <li style={{color: '#000'}}>Gestión de talento</li>
+                          <li style={{color: '#000'}}>Marketing digital</li>
+                          <li style={{color: '#000'}}>Fintech</li> 
                     </ul>
                   </div>
                   <div style={{backgroundColor: '#f1f1f1', padding: '50px 40px', borderRadius: '0px 0px 9px 10px'}}>
                     <div style={{borderLeft: 'solid 3px #94d60a'}}>
-                      <p style={{color: '#5B5B5F', textAlign: 'left', paddingLeft: '10px'}}>Inicia tu camino al éxito</p>
+                      <p style={{color: '#5B5B5F', textAlign: 'left', paddingLeft: '10px'}}>Aplicar las competencias y habilidades del liderazgo que garanticen el 
+                      éxito en emprendimientos y la conducción organizacional, en los nuevos entornos digitales.</p>
+                      {/* <div class="text-right">
+                        <span style="text-align: right;color: #94d60a;"> 2019</span>
+                      </div> */}
+                    </div>
+                  </div>
+                </div>{/* service-box */}
+              </div>{/* col */}
+              <div className="col-lg-3 col-md-2"></div>
+              <div className="col-lg-6 col-md-6">
+                <div className="service-box style-8" style={{backgroundColor: '#fff', border: 'solid 2px #0082cb', padding: '13px 0px 0px 0px'}}>
+                  <div style={{padding: '20px 50px'}}>
+                    <h4 className="text-left">CAMPAMENTO 3.2– LIDERANDO LA TRANSFORMACIÓN DIGITAL</h4>
+                    <ul className="bullet-list text-left">
+                      <li style={{color: '#000'}}>Innovación</li>
+                          <li style={{color: '#000'}}>Transformación digital & machine learning</li>
+                          <li style={{color: '#000'}}>Analytics y big data</li>
+                          <li style={{color: '#000'}}>Liderazgo ágil</li> 
+                    </ul>
+                  </div>
+                  <div style={{backgroundColor: '#f1f1f1', padding: '50px 40px', borderRadius: '0px 0px 9px 10px'}}>
+                    <div style={{borderLeft: 'solid 3px #94d60a'}}>
+                      <p style={{color: '#5B5B5F', textAlign: 'left', paddingLeft: '10px'}}>Aplicar las competencias y habilidades del liderazgo que garanticen el éxito
+                       en emprendimientos y la conducción organizacional, en el marco de la transformación digital.</p>
                       {/* <div class="text-right">
                         <span style="text-align: right;color: #94d60a;"> 2019</span>
                       </div> */}
@@ -235,6 +259,71 @@ const Emaster = () => (
                 <h6>Carlos Subero</h6>
                 <span>Especialista en Psicología y Psicoterapia</span>
                 <p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>
+              </div>{/* about-me */}
+            </div>{/* col */}
+            <div className="col-lg-6 col-md-12 col-sm-12">
+              <div className="about-me style-2">
+                <div className="about-me-thumbnail rounded-circle">
+                  <img src="assets/images/ASSAF.png" alt style={{width: '96%'}} />
+                  <div className>
+                    <a className="fancybox" data-fancybox="about" href="assets/images/ASSAF.png" />
+                  </div>{/* about-me-hover */}
+                </div>{/* about-me-thumbnail */}
+                <h6>ASSAF JAMIN</h6>
+                <span>Especialista en Psicología y Psicoterapia</span>
+                <p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>
+              </div>{/* about-me */}
+            </div>{/* col */}
+            <div className="col-lg-6 col-md-12 col-sm-12">
+              <div className="about-me style-2">
+                <div className="about-me-thumbnail rounded-circle">
+                  <img src="assets/images/MAYLING.png" alt style={{width: '96%'}} />
+                  <div className>
+                    <a className="fancybox" data-fancybox="about" href="assets/images/MAYLING.png" />
+                  </div>{/* about-me-hover */}
+                </div>{/* about-me-thumbnail */}
+                <h6>Mayling Berrotera</h6>
+                <span>Diseñadora Instruccional</span>
+                {/*<p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>*/}
+              </div>{/* about-me */}
+            </div>{/* col */}
+            <div className="col-lg-6 col-md-12 col-sm-12">
+              <div className="about-me style-2">
+                <div className="about-me-thumbnail rounded-circle">
+                  <img src="assets/images/ASTRID.png" alt style={{width: '96%'}} />
+                  <div className>
+                    <a className="fancybox" data-fancybox="about" href="assets/images/ASTRID.png" />
+                  </div>{/* about-me-hover */}
+                </div>{/* about-me-thumbnail */}
+                <h6>Astrid Loyo</h6>
+                <span>Especialista en Desarrollo Humano</span>
+                {/*<p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>*/}
+              </div>{/* about-me */}
+            </div>{/* col */}
+            <div className="col-lg-6 col-md-12 col-sm-12">
+              <div className="about-me style-2">
+                <div className="about-me-thumbnail rounded-circle">
+                  <img src="assets/images/CLAU.png" alt style={{width: '96%'}} />
+                  <div className>
+                    <a className="fancybox" data-fancybox="about" href="assets/images/CLAU.png" />
+                  </div>{/* about-me-hover */}
+                </div>{/* about-me-thumbnail */}
+                <h6>Carlos Subero</h6>
+                <span>Especialista en Psicología y Psicoterapia</span>
+                <p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>
+              </div>{/* about-me */}
+            </div>{/* col */}
+            <div className="col-lg-6 col-md-12 col-sm-12">
+              <div className="about-me style-2">
+                <div className="about-me-thumbnail rounded-circle">
+                  <img src="assets/images/Javier.png" alt style={{width: '96%'}} />
+                  <div className>
+                    <a className="fancybox" data-fancybox="about" href="assets/images/Javier.png" />
+                  </div>{/* about-me-hover */}
+                </div>{/* about-me-thumbnail */}
+                <h6>Javier Rizzo</h6>
+                <span>Especialista en economía</span>
+                {/*<p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>*/}
               </div>{/* about-me */}
             </div>{/* col */}
           </div>{/* row */}

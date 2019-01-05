@@ -107,7 +107,7 @@ class Header extends Component {
               {/* BLOG */}
               <li>
                 <a href="http://ciexpro.indielms.com">
-                  <p className="p">Registro</p>
+                  <p className="p">Login</p>
                 </a>
               </li>
             </ul>
@@ -116,25 +116,25 @@ class Header extends Component {
           <ul className="footer-social">
             {/* FACEBOOK*/}
             <li>
-              <a href="#" target="_blank">
+              <a href="https://www.facebook.com/Ciexpro/" target="_blank">
                 <span className="fa fa-facebook" />
               </a>
             </li>
             {/* TWITTER*/}
             <li>
-              <a href="#" target="_blank">
+              <a href="https://twitter.com/ciexpro/" target="_blank">
                 <span className="fa fa-twitter" />
               </a>
             </li>
             {/* INSTAGRAM*/}
             <li>
-              <a href="#" target="_blank">
+              <a href="https://www.instagram.com/ciexpro/" target="_blank">
                 <span className="fa fa-instagram" />
               </a>
             </li>
-            {/* INSTAGRAM*/}
+            {/* Linkedin*/}
             <li>
-              <a href="#" target="_blank">
+              <a href="https://www.linkedin.com/company/ciexpro/?originalSubdomain=ve" target="_blank">
                 <span className="fa fa-linkedin" />
               </a>
             </li>

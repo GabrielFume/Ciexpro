@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import $ from 'jquery';
 
 class Home extends Component {
@@ -186,13 +187,20 @@ render(){
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="about-me text-box rounded large m-about">
                     <div className="about-me-thumbnail">
-                      <a href="eMaster.html"><img src="assets/images/Bootcamp_E-Bootcamp.png" alt /></a>
+                      <Link to="/emaster">
+                        <img src="assets/images/Bootcamp_E-Bootcamp.png" alt />
+                      </Link>
                     </div>
                     <div>
-                      <h6>eMaster</h6>
+                    <Link to="/emaster">
+                        <h6>eMaster</h6>
+                      </Link>
+                      
                       <div className="hr default-color" />
-                      <a href="eMaster.html"><p>Potencia tus habilidades y conviértete en un líder auténtico <br /><br />
-                          <i className="fa fa-clock-o ico" /> +4 meses</p></a>
+                      <Link to="/emaster">
+                        <p>Potencia tus habilidades y conviértete en un líder auténtico <br /><br />
+                          <i className="fa fa-clock-o ico" /> +4 meses</p>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -200,15 +208,22 @@ render(){
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="about-me text-box rounded large m-about">
                     <div className="about-me-thumbnail">
-                      <a href="producto.html"><img src="assets/images/Bootcamp_E-Master.png" alt /></a>
+                      <Link to="/ebootcamp">
+                        <img src="assets/images/Bootcamp_E-Master.png" alt />
+                      </Link>
                     </div>
                     <div>
-                      <h6>eBootCamp</h6>
+                      <Link to="/ebootcamp">
+                        <h6>eBootCamp</h6>
+                      </Link>
+                      
                       <div className="hr default-color" />
                       {/* <span>Team Leader</span> */}
-                      <a href="producto.html"><p>Aprende de manera práctica y rápida los temas actuales <br /><br />
+                      <Link to="/ebootcamp">
+                        <p>Aprende de manera práctica y rápida los temas actuales <br /><br />
                           <i className="fa fa-clock-o ico" /> De 1 a 4 semanas
-                        </p></a>
+                        </p>
+                      </Link>
                     </div>
                   </div>
                 </div>
