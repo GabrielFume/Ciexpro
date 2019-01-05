@@ -32,7 +32,6 @@ const Emaster = () => (
                 <h3>eMaster:</h3>
                 <h2>Liderazgo en Entornos Digitales </h2>
                 <br />
-                <h5>Liderazgo en Entornos Digitales</h5>
                 <p >Forma lo esencial de la visión y de tu carácter para alcanzar el éxito a través de una cultura de liderazgo auténtico en entornos de transformación digital</p>
                 <div className="row">
                 <div className="col-md-6">
@@ -45,7 +44,7 @@ const Emaster = () => (
                   <div className="col-md-6">
                     <div className="service-box" style={{padding: '7px 40px 7px', borderRadius: '30px', border: 'solid 2px #6e6e6e', width: '93%'}}>
                       <div className="service-box-content">
-                        <h6 style={{marginBottom: '0px', color: '#6e6e6e'}}><a href="#" style={{ color: '#6e6e6e'}}>150$ mensuales</a></h6>      
+                        <h6 style={{marginBottom: '0px', color: '#6e6e6e'}}><a href="#" style={{ color: '#6e6e6e'}}> <strong>150$</strong> mensuales</a></h6>      
                       </div>{/* service-box-content */}
                     </div>
                   </div>
@@ -53,7 +52,7 @@ const Emaster = () => (
                   <div className="col-md-6">
                     <div className="service-box" style={{padding: '7px 40px 7px', borderRadius: '30px', border: 'solid 2px #6e6e6e', width: '93%'}}>
                       <div className="service-box-content">
-                        <h6 style={{marginBottom: '0px', color: '#6e6e6e'}}><a href="#" style={{ color: '#6e6e6e'}}>De contado: 500$</a></h6>      
+                        <h6 style={{marginBottom: '0px', color: '#6e6e6e'}}><a href="#" style={{ color: '#6e6e6e'}}>De contado: <strong>500$</strong>  </a></h6>      
                       </div>{/* service-box-content */}
                     </div>
                   </div>
@@ -69,8 +68,8 @@ const Emaster = () => (
             <div className="row" style={{display: 'flex', alignItems: 'center', paddingTop: '23%'}}>
               <div className="col-lg-6 col-md-12 col-sm-12" style={{marginTop: '-23%', borderRight: 'solid 2px #fff'}}>
                 <div className="headline text-center no-margin-bottom">
-                  <a href="assets/pdf/eBootCamp Marca e imagen personal.pdf"><i className="decode-icon-backup wow tada" style={{fontSize: '60px', color: '#fff'}} /></a>
-                  <h6><a target="_blank" href="assets/pdf/eBootCamp Marca e imagen personal.pdf" style={{color: '#fff'}}>Descarga de brochure</a></h6>
+                  <a href="#"><i className="decode-icon-backup wow tada" style={{fontSize: '60px', color: '#fff'}} /></a>
+                  <h6><a href="#" style={{color: '#fff'}}>Descarga de brochure</a></h6>
                 </div>{/* headline */}
               </div>{/* col */}
               <div className="col-lg-6 col-md-12 col-sm-12" style={{marginTop: '-23%'}}>
@@ -88,7 +87,7 @@ const Emaster = () => (
               <div className="col-lg-4 col-md-6">
                 <div className="service-box style-8" style={{backgroundColor: '#fff', border: 'solid 2px #0082cb', padding: '13px 0px 0px 0px'}}>
                   <div style={{padding: '20px 50px'}}>
-                    <h4 className="text-left">CAMPAMENTO 1 – EL PODER DEL LÍDER</h4>
+                    <h4 className="text-left" >Campamento 1 <br /> El poder del líder</h4>
                     <ul className="bullet-list text-left">
                       <li style={{color: '#000'}}>Liderazgo personal</li>
                       <li style={{color: '#000'}}>Desarrollo del potencial personal</li>
@@ -109,7 +108,7 @@ const Emaster = () => (
               <div className="col-lg-4 col-md-6">
                 <div className="service-box style-8" style={{backgroundColor: '#fff', border: 'solid 2px #0082cb', padding: '13px 0px 0px 0px'}}>
                   <div style={{padding: '20px 50px'}}>
-                    <h4 className="text-left">CAMPAMENTO 2 – EL LÍDER DE EQUIPOS</h4>
+                    <h4 className="text-left" >Campamento 2 <br /> El líder de equipos</h4>
                     <ul className="bullet-list text-left">
                       <li style={{color: '#000'}}>Liderazgo de equipos y agilidad</li>
                       <li style={{color: '#000'}}>Empowerment: potenciando al equipo</li>
@@ -131,7 +130,7 @@ const Emaster = () => (
               <div className="col-lg-4 col-md-6">
                 <div className="service-box style-8" style={{backgroundColor: '#fff', border: 'solid 2px #0082cb', padding: '13px 0px 0px 0px'}}>
                   <div style={{padding: '20px 50px'}}>
-                    <h4 className="text-left">CAMPAMENTO 3.1 – LIDERANDO EL ENTORNO DIGITAL</h4>
+                    <h4 className="text-left">Campamento 3.1 <br /> Liderando el entorno digital</h4>
                     <ul className="bullet-list text-left">
                       <li style={{color: '#000'}}>Liderazgo estratégico</li>
                           <li style={{color: '#000'}}>Gestión de talento</li>
@@ -154,7 +153,7 @@ const Emaster = () => (
               <div className="col-lg-6 col-md-6">
                 <div className="service-box style-8" style={{backgroundColor: '#fff', border: 'solid 2px #0082cb', padding: '13px 0px 0px 0px'}}>
                   <div style={{padding: '20px 50px'}}>
-                    <h4 className="text-left">CAMPAMENTO 3.2– LIDERANDO LA TRANSFORMACIÓN DIGITAL</h4>
+                    <h4 className="text-left" >Campamento 3.2 <br /> Liderando la transformación digital</h4>
                     <ul className="bullet-list text-left">
                       <li style={{color: '#000'}}>Innovación</li>
                           <li style={{color: '#000'}}>Transformación digital & machine learning</li>
@@ -284,20 +283,7 @@ const Emaster = () => (
                 </div>{/* about-me-thumbnail */}
                 <h6>Mayling Berrotera</h6>
                 <span>Diseñadora Instruccional</span>
-                {/*<p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>*/}
-              </div>{/* about-me */}
-            </div>{/* col */}
-            <div className="col-lg-6 col-md-12 col-sm-12">
-              <div className="about-me style-2">
-                <div className="about-me-thumbnail rounded-circle">
-                  <img src="assets/images/ASTRID.png" alt style={{width: '96%'}} />
-                  <div className>
-                    <a className="fancybox" data-fancybox="about" href="assets/images/ASTRID.png" />
-                  </div>{/* about-me-hover */}
-                </div>{/* about-me-thumbnail */}
-                <h6>Astrid Loyo</h6>
-                <span>Especialista en Desarrollo Humano</span>
-                {/*<p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>*/}
+                <p>La felicidad se puede encontrar incluso en los momentos más oscuros, siempre que seamos</p>
               </div>{/* about-me */}
             </div>{/* col */}
             <div className="col-lg-6 col-md-12 col-sm-12">
@@ -309,21 +295,21 @@ const Emaster = () => (
                   </div>{/* about-me-hover */}
                 </div>{/* about-me-thumbnail */}
                 <h6>Carlos Subero</h6>
-                <span>Especialista en Psicología y Psicoterapia</span>
-                <p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>
+                <span>Diseñadora Instruccional</span>
+                <p>Creo en la magia humana y en el poder de la risa</p>
               </div>{/* about-me */}
             </div>{/* col */}
             <div className="col-lg-6 col-md-12 col-sm-12">
               <div className="about-me style-2">
                 <div className="about-me-thumbnail rounded-circle">
-                  <img src="assets/images/Javier.png" alt style={{width: '96%'}} />
+                  <img src="assets/images/JOSE_LUIS.png" alt style={{width: '96%'}} />
                   <div className>
                     <a className="fancybox" data-fancybox="about" href="assets/images/Javier.png" />
                   </div>{/* about-me-hover */}
                 </div>{/* about-me-thumbnail */}
-                <h6>Javier Rizzo</h6>
-                <span>Especialista en economía</span>
-                {/*<p>Mi misión personal es despertar la consciencia, aliviar el sufrimiento humano y generar bienestar a mi alrededor</p>*/}
+                <h6>Jose Luis Vita</h6>
+                <span>Gerente de Producto - Ciexpro</span>
+                *<p>Nunca consideres el estudio como una obligación, sino como una oportunidad para penetrar en el bello y maravilloso mundo del saber. Albert Einstein</p>
               </div>{/* about-me */}
             </div>{/* col */}
           </div>{/* row */}

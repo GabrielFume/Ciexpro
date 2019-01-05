@@ -510,6 +510,20 @@ render(){
                         </div>{/* service-box-content */}
                       </div>{/* service-box */}
                     </div>{/* item */}
+                    <div className="item">
+                      <div className="service-box style-8 large">
+                        <img src="assets/images/JOSE_LUIS.png" alt />
+                        <div className="service-box-content guias">
+                          <div className="icon-guia">
+                            <img src="assets/icons/blancos/ICONOsMesa de trabajo 7.png" alt style={{width: '120px'}} />
+                          </div>
+                          <div className="about-guia">
+                            <p className="name">Jose Luis</p>
+                            <p>Especialista en economía</p>
+                          </div>  
+                        </div>{/* service-box-content */}
+                      </div>{/* service-box */}
+                    </div>{/* item */}
                   </div>{/* services-slider */}
                 </div>{/* col */}
               </div>{/* row */}
@@ -754,7 +768,7 @@ render(){
                             <label htmlFor="email" style={{color: '#0081C6', fontSize: '15px'}}>Correo</label>
                           </p>
                           <p>
-                            <input className="col-12 required" type="text" name="PHONE" id="name" defaultValue />
+                            <input className="col-12 required" type="text" name="PHONE" id="name" />
                             <span />
                             <label htmlFor="name" style={{color: '#0081C6', fontSize: '15px'}}>Teléfono</label>
                           </p>

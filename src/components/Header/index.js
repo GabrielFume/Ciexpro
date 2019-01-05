@@ -30,12 +30,30 @@ class Header extends Component {
         <header className="header grid">
           {/* LOGOTIPO */}
           <section className="header-logo">
-            <a href="index.html">
-              <img src="assets/images/logo_ciexpro.png" alt />
-            </a>
+                <Link to="/">
+                  <img src="assets/images/logo_ciexpro.png" alt />
+                </Link>
+          </section>
+          <section>
+            
+              
+            
           </section>
           {/* MENU */}
           <section className="header-menu">
+              {/*<nav>
+                  <ul className="menu clearfix" id="menu">
+                    <li className="megamenu active">
+                      <a >Inicio</a>
+                      
+                    </li>
+                    <li className="dropdown">
+                      <a >Nosotros</a>
+                      
+                    </li>
+                  </ul>
+
+                </nav>*/}
             <a className="waves-effect waves-light " id="btn-modal">
               <span className="fa fa-bars" />
             </a>
@@ -49,6 +67,7 @@ class Header extends Component {
               <span className="fa fa-close" />
             </a>
           </section>
+          
           {/* TITULO MODAL */}
           <section className="modalwindows-title">
             <h4><strong>Ciexpro,</strong> Te llevamos a la cima</h4>
@@ -77,12 +96,12 @@ class Header extends Component {
                 <ul>
                   <li>
                   <Link to="/emaster">
-                      <p className="p">Emaster</p>
+                      <p className="p">eMaster</p>
                   </Link>
                   </li>
                   <li>
                   <Link to="/ebootcamp">
-                      <p className="p">EbootCamp</p>
+                      <p className="p">eBootCamp</p>
                   </Link>
 
                   </li>
@@ -100,6 +119,15 @@ class Header extends Component {
 					</li> */}
               {/* BLOG */}
               <li>
+                <Link to="/preguntas_frecuentes">
+                    <p className="p">Preguntas</p>
+                </Link>
+              </li><li>
+                <Link to="/Salas">
+                    <p className="p">Salas</p>
+                </Link>
+              </li>
+              <li>
                 <Link to="/contacto">
                       <p className="p">Contacto</p>
                 </Link>
@@ -108,6 +136,11 @@ class Header extends Component {
               <li>
                 <a href="http://ciexpro.indielms.com">
                   <p className="p">Login</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://ciexpro.indielms.com/join_no_access_code">
+                  <p className="p">Registro</p>
                 </a>
               </li>
             </ul>

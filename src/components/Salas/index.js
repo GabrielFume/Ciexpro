@@ -210,8 +210,17 @@ const Salas = () => (
                 <i className="decode-icon-ranking" />
                 <div className="service-box-content">
                   {/* <h5><a href="single-service.html">Well Documented</a></h5> */}
-                  <h5 style={{color: '#fff'}}>Ventajas de nuestros espacios</h5>
+                  <h3 style={{color: '#fff', fontSize: '20px'}}>Ventajas de nuestros espacios</h3> <br />
                   <p>Ubicado en una zona empresarial de fácil acceso en transporte público o vehículo particular</p>
+                </div>{/* service-box-content */}
+              </div>{/* service-box */}
+            </div>{/* col */}
+            <div className="col-lg-4 col-md-6">
+              <div className="service-box style-8">
+                <i className="decode-icon-ranking" />
+                <div className="service-box-content">
+                  {/* <h5><a href="single-service.html">Well Documented</a></h5> */}
+                  <h3 style={{color: '#fff', fontSize: '20px'}}>Ventajas de nuestros espacios</h3> <br />
                   <p>Estacionamiento público</p>
                 </div>{/* service-box-content */}
               </div>{/* service-box */}
@@ -221,17 +230,7 @@ const Salas = () => (
                 <i className="decode-icon-ranking" />
                 <div className="service-box-content">
                   {/* <h5><a href="single-service.html">Well Documented</a></h5> */}
-                  <h5 style={{color: '#fff'}}>Ventajas de nuestros espacios</h5>
-                  <p>Estacionamiento público</p>
-                </div>{/* service-box-content */}
-              </div>{/* service-box */}
-            </div>{/* col */}
-            <div className="col-lg-4 col-md-6">
-              <div className="service-box style-8">
-                <i className="decode-icon-ranking" />
-                <div className="service-box-content">
-                  {/* <h5><a href="single-service.html">Well Documented</a></h5> */}
-                  <h5 style={{color: '#fff'}}>Ventajas de nuestros espacios</h5>
+                  <h3 style={{color: '#fff', fontSize: '20px'}}>Ventajas de nuestros espacios</h3> <br />
                   <p>Salones adaptados a cualquier tipo de inducción, evento o reunión corporativa con horarios de uso flexible</p>
                 </div>{/* service-box-content */}
               </div>{/* service-box */}
